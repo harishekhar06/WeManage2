@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&display=swap');
+
+body {
+    background-image: url('assets/simple.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: transparent;
+}
+.logo img {
+    height: 125px; 
+}
+.navbar {
+    display: flex;
+    gap: 2rem; 
+}
+.navbar a {
+    font-family: 'Acme', sans-serif;
+    font-weight: 800; 
+    font-size: 1.8rem; 
+    text-decoration: none;
+    color: rgb(0, 80, 7);
+}
+.navbar a:hover{
+    color: rgb(0, 80, 7);
+}
+.navbar a:hover {
+    font-size: 1.5rem;
+}
